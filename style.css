@@ -3,11 +3,19 @@
     font-size: 16px;
 }
 
-html, body, #main {
-    height: 100% !important;
-    width: 100% !important;
+html, body, p, a, h1, h2, h3, h4, h5, input, ul, span, font, b, strong, *, pre, code, input, textarea, article, 
+.article_header h1, article p, .story.theme-summary .summary, 
+.span-ab-bottom-region .story.theme-summary .summary, 
+.inside-nyt .story.theme-summary .story-heading, 
+.well .column ul li .story .story-heading, 
+.inside-nyt .story.theme-summary.no-thumb .story-heading, 
+.inside-nyt .story.theme-summary .summary, 
+.recommendations ol li .story-heading, 
+.tone-news .story.theme-main .story-header .story-heading, 
+.type-size-small .story.theme-main .story-body-text, 
+.story.theme-summary .story-heading, .ace_text-input, .prettyprint {
+    line-height: initial !important;
 }
-
 
 * {
     margin: 0px;
